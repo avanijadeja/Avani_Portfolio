@@ -6,6 +6,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    background-color: #7DB9B6;
  }
 section {
     height:500px;
@@ -14,7 +15,7 @@ section {
 }
 
 .hero {
-    background-color: #1c1d25;
+    background-color: #4D455D;
     height: 100vh;
     color:white;
     font-size:40px;
@@ -22,8 +23,8 @@ section {
 
 footer {
     
-    background-color: black;
-    color:white;
+    background-color: #E96479;
+    color:#f5e9cf;
     text-align: left;
     padding:80px;
 }
@@ -31,11 +32,12 @@ footer {
 .hero-heading
 {
     font-size: 30px;
+    color:#f5e9cf;
 }
 .Hero-main
 {
     height: 50px;
-    background-color: thistle;
+    background-color: #E96479;
 }
 nav {
     display:flex;
@@ -76,6 +78,7 @@ ul{
     width: 700px;
     justify-content: space-around;
     font-size: 30px;
+    
 }
 
 li{
@@ -119,7 +122,7 @@ p{
 }
 
 .button{
-    width:200px;
+    width:250px;
     height:55px;
     border-radius: 40px;
     background-color: coral;
@@ -157,6 +160,7 @@ p{
 
 .sub-section{
    
+    background-color: #7DB9B6;
     display: flex;
     height:100%;
     justify-content: space-between;
@@ -167,6 +171,7 @@ p{
 }
 
 .sub-section-alternative{
+    background-color: #7DB9B0;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -223,13 +228,14 @@ hr{
 
 a{
 text-decoration: none;
-color:white;
+color: #f5e9cf;
 
 }
 footer h2{
     font-size: 50px;
 }
 footer nav{
+    
     display: flex;
     justify-content: space-between;
 }
@@ -243,10 +249,14 @@ footer ul{
     text-align: center;
     padding: 20px;
 }
-}
 
-footer ui li{
+
+
+
+
+footer li, a {
     /*width:250px;*/
+    
     text-decoration: none;
 
 }
