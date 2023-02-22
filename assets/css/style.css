@@ -9,6 +9,7 @@ body{
     background-color: #7DB9B6;
  }
 
+
 .hero {
     background-color: #4D455D;
     height: 100vh;
@@ -16,13 +17,6 @@ body{
     font-size:40px;
 }
 
-footer {
-    
-    background-color: #E96479;
-    color:#f5e9cf;
-    text-align: left;
-    padding:80px;
-}
 
 .hero-heading
 {
@@ -34,17 +28,15 @@ footer {
     height: 50px;
     background-color: #E96479;
 }
+
 nav {
     display:flex;
     justify-content: space-between;
-    
-
-}
+    }
 
 nav img{
     border-radius: 200px;
-    
-    align-self: flex-start;
+   align-self: flex-start;
     padding:0px;
 }
 
@@ -75,17 +67,17 @@ nav div{
 .information p{
     color:#f5e9cf;
 }
-ul{
+.top-nav ul{
     display: flex;
     list-style-type:none;
-    width: 700px;
-    justify-content: space-around;
+    width: 900px;
+    justify-content: space-between;
     font-size: 30px;
     
 }
 
 li{
-    /*width:250px;*/
+   
     text-decoration: none;
 
 }
@@ -95,9 +87,11 @@ h1{
     margin: 0;
 }
 
+
 h2{
     font-size: 50px;
 }
+
 
 p{
     margin:0;
@@ -125,14 +119,16 @@ p{
 }
 
 .button{
-    width:250px;
+    width:300px;
     height:55px;
+    text-align: center;
     border-radius: 40px;
     background-color: coral;
-    text-align: center;
+ 
     font-size: 30px;
     font-weight: 300;
     padding-top: 5px;
+    padding-left: 10px;
     margin-top: 20px;
 }
 
@@ -192,6 +188,8 @@ p{
    
 }
 
+
+
 #work{ 
     padding-left:80px;
 }
@@ -218,6 +216,23 @@ p{
 }
 
 
+.row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+
+.project-card11{
+    position: relative;
+    width:100%;
+    height:500px;
+    box-shadow: 5px 5px 20px gray;
+    margin:10px;
+    border: 5px solid #f5e9cf;
+    
+}
 
 .project-card1{
     position: relative;
@@ -229,8 +244,11 @@ p{
     
 }
 
-
-
+.project-card11 img{
+    width: 100%;
+    height:500px;
+    margin: 0%;
+}
 
 .project-card1 img{
     width: 100%;
@@ -238,6 +256,16 @@ p{
     margin: 0%;
 }
 
+.Project-information1{
+    position: absolute;
+    bottom: 10px;
+  left: 00px;
+  background-color:#f5e9cf;
+  color:#E96479;
+  padding-left: 20px;
+  padding-right: 20px;
+  border:5px solid #f5e9cf;
+}
 
 .Project-information{
     position: absolute;
@@ -249,7 +277,6 @@ p{
   padding-right: 20px;
   border:5px solid #f5e9cf;
 }
-
 
 
 
@@ -281,23 +308,37 @@ text-decoration: none;
 color: #f5e9cf;
 
 }
-footer h2{
-    font-size: 50px;
+
+
+footer {
+    
+    background-color: #E96479;
+    color:#f5e9cf;
+    text-align: left;
+    height:100px;
+    font-size:30px;
+    padding-top: 50px;
+  
+  
 }
+
+
 footer nav{
     
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    margin-left: 40px;
 }
 
 footer ul{
     display: flex;
     list-style-type: none;
-    width: 1400px;
+   
     justify-content: space-around;
     font-size: 30px;
     text-align: center;
-    padding: 20px;
+   
 }
 
 
@@ -306,7 +347,8 @@ footer ul{
 
 footer li, a {
     /*width:250px;*/
-    
+    padding-right:90px;
     text-decoration: none;
 
 }
+
