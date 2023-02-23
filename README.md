@@ -4,20 +4,20 @@ Avani Portfolio
 
 ## Description
 
-THis website shwows USer Avani Jadeja Portfolio.In this Portfolio website main you can see her name, about me, work, contact me and resume section.
+This website shows us User Avani Jadeja Portfolio.In this Portfolio website main you can see her name, about me, work, contact me and resume section.
 In about me you can see her name and small description with download cv button so you can download her resume and also with three social media accounts link so you can connect her on social media.
 
-next in about me section, you can see her intersets and work description with her image.
+next In About-me section, you can see her work description with her image.
 
-next is work section, im that you can see right now 5 application with image and heading on it. also when u click on the image its open in new page whcich is currelty working website. so deployed link of that application is connect with image.
+next is Work section, In that you can see right now 5 application with image and heading on it. also when you click on the image its open in new page which is currelty working website. so deployed link of that application is connect with image.
 
-next is conatct me footer in which you can contact her by her mobile number, email id, github, linkedin and twitter account social media accout has link on it so when you click on that name u can redirect on that page.
+next is Conatct me footer in which you can contact her by her mobile number, email id, github, linkedin and twitter account social media accout has link on it so when you click on that name you can redirect on that page.
 
-also in main header menu bar you can see resume when you click on resume its open in new wepage so from also you can download her resume.
+also In main header menu bar you can see resume when you click on resume its open in new wepage so from also you can download her resume.
 
-this portfolio wesite is work on every media screen for differenet screen portfolio wesite fontsize and image size and layout change so you can see in any screen size with perfect portfolio website.
+This portfolio website is work on every media screen for differenet screen portfolio website fontsize and image size and layout change so you can see in any screen size with perfect portfolio website.
 
-For making this Portfolio website basically use HTML and CSS with main featurs like  media query, global variables, pseudo elements and flexbox.
+For making this Portfolio website basically use HTML and CSS with main features like  media query, global variables, pseudo elements and flexbox.
 
 In attachement you can see  screenshots of my Avani Portfoli website.
 
