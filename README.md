@@ -19,6 +19,9 @@ This portfolio website is work on every media screen for differenet screen portf
 
 For making this Portfolio website basically use HTML and CSS with main features like  media query, global variables, pseudo elements and flexbox.
 
+Avani Portfolio Deployed website link - https://avanijadeja.github.io/Avani_Portfolio/
+
+
 Here you can see screenshots of my Avani Portfolio website.
 
 ![Avani Portfolio](./assets/images/website_screenshots/Avani_Portfolio.png)
