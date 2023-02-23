@@ -21,7 +21,7 @@ For making this Portfolio website basically use HTML and CSS with main features 
 
 Here you can see screenshots of my Avani Portfolio website.
 
-![Avani Portfolio](./assets/images/website_screenshots/About_me.png)
+![Avani Portfolio](./assets/images/website_screenshots/Avani_Portfolio.png)
 
 ![About_me](./assets/images/website_screenshots/About_me.png)
 
