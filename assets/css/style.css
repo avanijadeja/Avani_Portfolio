@@ -40,6 +40,8 @@ body{
 .top-nav {
     display:flex;
     justify-content: space-between;
+    font-size: 30px;
+    padding:5px;
     }
 
 /* give display flex and radius , aligment and padding to main image */
@@ -47,16 +49,17 @@ body{
     display: flex;
     border-radius: 200px;
     align-self: flex-start;
-    padding:5px;
+    
+    
 }
 
 /* apply properties to main header like about me , work, contact me , resume */
 .top-nav ul{
     display: flex;
     list-style-type:none;
-    width: 900px;
+    width: 700px;
     justify-content: space-around;
-    font-size: 30px;
+   
 
 
     text-decoration: none;
@@ -123,7 +126,7 @@ body{
     text-align: left;
     display: flex;
     justify-content: space-around;
-    font-size: 30px;
+   
 }
 
 /* second part of portfolio means about me.apply common properties */
@@ -245,8 +248,8 @@ body{
     
 }
 
-/* apply pesudoelement property to first child of project card1 */
-.project-card11 img:first-child{
+
+.project-card11 img{
     width: 100%;
     height:500px;
     margin: 0%;
@@ -306,4 +309,110 @@ footer li a{
 }
 
 
+@media screen and (max-width:1200px){
+    .top-nav{
+        font-size: 20px;
+    }
+    
+    
+    footer{
+        font-size: 20px;
+    }
+}
 
+
+@media screen and (max-width:992px){
+
+    .top-nav{
+        font-size: 15px;
+    }
+    
+    .hero-text{
+        
+        font-size: 30px;
+    }
+    
+    .hero-text p{
+            font-size: 20px;
+    }
+
+    .information h2{
+        font-size: 30px;
+        
+    }
+    
+     .information p{
+        font-size :20px;
+        
+    }
+    
+    footer{
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width:768px)
+{
+    .headshot{
+        width:200px;
+        border-radius:150px;
+    }
+
+   .Project-information h3{
+    font-size: 10px;
+   } 
+   
+   .Project-information1{
+    font-size: 10px;
+   }
+
+   .row1{
+    flex-direction: column;
+   }
+   .row{
+    flex-direction: column;
+   }
+
+   
+   footer{
+    font-size: 10px;
+}
+}
+
+
+@media screen and (max-width:576px)
+{
+    .top-nav{
+        font-size: 10px;
+    }
+    
+    .headshot{
+        width:200px;
+        border-radius:150px;
+    }
+    .hero-text{
+        
+        font-size: 20px;
+    }
+    
+    .hero-text p{
+            font-size: 14px;
+    }
+
+    .information h2{
+        font-size: 20px;
+        
+    }
+    
+     .information p{
+        font-size :14px;
+        
+    }
+
+   
+    
+    footer{
+        font-size: 10px;
+    }
+}
