@@ -33,6 +33,8 @@ Here you can see screenshots of my Avani Portfolio website.
 
 ![Download_CV](./assets/images/website_screenshots/Download_CV.png)
 
+![smallscreensize_view](./assets/images/website_screenshots/smallscreensize_view.png)
+
 
 ## Installation
 
