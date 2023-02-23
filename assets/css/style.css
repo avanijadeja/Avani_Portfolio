@@ -1,15 +1,16 @@
+/* set starting margin and padding at 0 */
 *{
     margin: 0;
     padding: 0;
 }
 
-
+/*apply font and background color property to body tag */
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #7DB9B6;
  }
 
-
+/*first part of portfolio header and apply background color , height , color and font size to header */
 .hero {
     background-color: #4D455D;
     height: 100vh;
@@ -17,114 +18,71 @@ body{
     font-size:40px;
 }
 
-
-.hero-heading
-{
-    font-size: 30px;
-    color:#f5e9cf;
-}
+/*first header bar applying height and background color */
 .Hero-main
 {
     height: 50px;
     background-color: #E96479;
 }
 
-nav {
+/*first img logo and name part and apply flex and space between them. */
+.top-nav {
     display:flex;
     justify-content: space-between;
     }
 
-nav img{
-    border-radius: 200px;
-   align-self: flex-start;
-    padding:0px;
-}
-
-
-nav div{
-    text-align: left;
+/* give display flex and radius , aligment and padding to main image */
+#img-main{
     display: flex;
-    justify-content: space-around;
-    font-size: 30px;
+    border-radius: 200px;
+    align-self: flex-start;
+    padding:5px;
 }
 
-.information{
-
-    margin-left: 80px;
-    margin-bottom: 80px;
-    margin-right: 80px;
-    height: 200px;
-    width: 1400px;
-    padding: 10px;
-    text-align: justify;
-
-}
-
-.information h2{
-    color:#E96479;
-}
-
-.information p{
-    color:#f5e9cf;
-}
+/* apply properties to main header like about me , work, contact me , resume */
 .top-nav ul{
     display: flex;
     list-style-type:none;
     width: 900px;
-    justify-content: space-between;
+    justify-content: space-around;
     font-size: 30px;
-    
-}
 
-li{
-   
+
     text-decoration: none;
 
 }
 
-h1{
-    font-size: 90px;
-    margin: 0;
+/* apply properties to main large header*/
+.hero-area{
+    display: flex;
+
+     height: 100%;
+    justify-content: space-between;
+    align-items: center;
 }
 
-
-h2{
-    font-size: 50px;
+/* apply margin and font peroperties to main sub header */
+.hero-text{
+    margin-left: 80px;
+    margin-bottom: 200pxm;
+    font-size: 60px;
 }
 
-
-p{
+/* set margin,fonts-ze and wigth to main header pragraph tag */
+.hero-text p{
     margin:0;
     font-size: 30px;
     font-weight: 300;
 }
 
-.subtext{
-    font-size: 15px;
-        font-weight: 300;
-}
-
-
-.hero-area{
-    display: flex;
-  
-    height: 100%;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.hero-text{
-        margin-left: 80px;
-        margin-bottom: 200pxm;
-}
-
+/*apply perperties to DOWNLOAD CV button in main header */
 .button{
     width:300px;
     height:55px;
     text-align: center;
     border-radius: 40px;
     background-color: coral;
- 
+
     font-size: 30px;
     font-weight: 300;
     padding-top: 5px;
@@ -132,33 +90,34 @@ p{
     margin-top: 20px;
 }
 
+/*apply peroperty when on mouse hover on button */
 .button:hover {
     background-color: #ef744b;
 }
 
+/* apply property when button is active */
 .button:active {
     background-color: #a9a9a9;
     color: #808080;
 }
 
+/* apply properties to twitter linked github image */
 .socials{
     padding-bottom: 1px;
-}
-
-.logo{
-    height: 40px;
-    margin: 5px;
-}
-
-.socials
-{
     margin:20px;
 }
 
+/* Give properties text-aligment,display,jusify-content means space between content , font size */
+.top-div{
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+}
 
-
+/* second part of portfolio means about me.apply common properties */
 .sub-section{
-   
+
     background-color: #7DB9B6;
     display: flex;
     height:100%;
@@ -169,62 +128,93 @@ p{
     margin-bottom: 200px;
 }
 
+/* class information has value about me and information */
+.information{
+    margin-left: 80px;
+    margin-bottom: 80px;
+    margin-right: 80px;
+    padding: 10px;
+    text-align: justify;
+}
+
+/* apply color to about me h2 text */
+.information h2{
+    font-size: 40px;
+    color:#E96479;
+}
+
+/* appply color to information paragraph */
+.information p{
+    font-size :30px;
+    color:#f5e9cf;
+}
+
+/* Work Section proeperties */
 .sub-section-alternative{
     background-color: #7DB9B0;
     color:#E96479;
     display: flex;
     flex-direction: column;
     text-align: center;
-   padding-left: 80px;
+    padding-left: 80px;
     padding-right: 130px;
 }
 
-
+.sub-section-alternative h2{
+    font-size: 40px;
+    color:#E96479;
+}
+/* apply proeperties to project image and link */
 .project-container{
     display: flex;
     flex-direction: column;
     justify-content:center;
-   margin: left 300px;
-   
+    margin: left 300px;
+
 }
 
 
-
-#work{ 
-    padding-left:80px;
+/*large image of portfolio person */
+.headshot-container{
+    display: flex;
+    align-items: center;
+    padding:10px;
 }
+
 .sub-section-alternative h2{
-    
+
     text-align: left;
 }
+
+/*apply width and border radius to main image */
 .headshot{
     width:300px;
     border-radius:150px;
 }
 
-.headshot-container{
-    display: flex;
-    align-items: center;
-    
+#work{ 
+    padding-left:80px;
 }
+
+
 
 .row{
     display: flex;
-    flex-direction: row;
+    
     justify-content: space-between;
     
 }
 
-
-.row1{
+/* apply pseudo element property to first child of row class */
+.row1:first-child{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     
 }
 
-
-.project-card11{
+/* apply pseudo peroperty to project card1 */
+.project-card11:first-child{
     position: relative;
     width:100%;
     height:500px;
@@ -244,7 +234,8 @@ p{
     
 }
 
-.project-card11 img{
+/* apply pesudoelement property to first child of project card1 */
+.project-card11 img:first-child{
     width: 100%;
     height:500px;
     margin: 0%;
@@ -259,96 +250,49 @@ p{
 .Project-information1{
     position: absolute;
     bottom: 10px;
-  left: 00px;
-  background-color:#f5e9cf;
-  color:#E96479;
-  padding-left: 20px;
-  padding-right: 20px;
-  border:5px solid #f5e9cf;
+    left: 00px;
+    background-color:#f5e9cf;
+    color:#E96479;
+    padding-left: 20px;
+    padding-right: 20px;
+    border:5px solid #f5e9cf;
 }
 
 .Project-information{
     position: absolute;
     bottom: 10px;
-  left: 00px;
-  background-color:#f5e9cf;
-  color:#E96479;
-  padding-left: 20px;
-  padding-right: 20px;
-  border:5px solid #f5e9cf;
+    left: 00px;
+    background-color:#f5e9cf;
+    color:#E96479;
+    padding-left: 20px;
+    padding-right: 20px;
+    border:5px solid #f5e9cf;
 }
 
-
-
-
-@media only screen and (max-width: 1000px){
-    .project-container{
-        display: flex;
-        flex-wrap: wrap;
-    }
-}
-
-.Project-image{
-    margin-top: 25px;
-    width: 300px;
- 
-}
-
-
-hr{
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-
-
-
-a{
-text-decoration: none;
-color: #f5e9cf;
-
-}
-
-
+/* apply peroties to footer tag and its sub tag */
 footer {
-    
+    display:flex;
+    justify-content: center;
     background-color: #E96479;
     color:#f5e9cf;
-    text-align: left;
-    height:100px;
+    width:100%;
     font-size:30px;
-    padding-top: 50px;
-  
-  
-}
-
-
-footer nav{
-    
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-left: 40px;
+    padding: 2%;
 }
 
 footer ul{
-    display: flex;
-    list-style-type: none;
-   
-    justify-content: space-around;
-    font-size: 30px;
-    text-align: center;
-   
+     display: flex;
+     list-style-type: none;
 }
 
+footer li{
+    padding-right:10px;
+}
 
-
-
-
-footer li, a {
-    /*width:250px;*/
-    padding-right:90px;
+footer li a{
     text-decoration: none;
-
+    color: #f5e9cf;
 }
+
+
 
